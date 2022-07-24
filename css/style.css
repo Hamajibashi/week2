@@ -159,6 +159,11 @@ p{
 .brand p {
     margin-bottom: 68px;
 }
+.brand .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .brand .images img:nth-child(2) {
     margin-right: 24px;
