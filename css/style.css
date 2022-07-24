@@ -36,6 +36,11 @@ h3 {
     font-weight: 500;
 }
 
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
 /* 顏色 */
 .text-secondary {
     color: #891818;
@@ -50,16 +55,8 @@ h3 {
 }
 
 /* 間距 */
-.mb-12 {
-    margin-bottom: 12px;
-}
-
 .mb-16 {
     margin-bottom: 16px;
-}
-
-.mb-20 {
-    margin-bottom: 20px;
 }
 
 .mb-28 {
@@ -76,10 +73,6 @@ h3 {
 
 .mb-56 {
     margin-bottom: 56px;
-}
-
-.mb-64 {
-    margin-bottom: 64px;
 }
 
 .container {
@@ -129,6 +122,10 @@ h3 {
     font-weight: 700;
 }
 
+.about img{
+    margin-bottom: 20px;
+}
+
 .about .basic-info li:nth-child(4) {
     padding-bottom: 24px;
 }
@@ -155,9 +152,11 @@ h3 {
     padding: 56px 0 160px 0;
 }
 
+.brand h2{
+    margin-bottom: 12px;
+}
+
 .brand p {
-    font-size: 20px;
-    line-height: 30px;
     margin-bottom: 68px;
 }
 
@@ -166,11 +165,6 @@ h3 {
 }
 
 /* Other Works */
-.other-works p {
-    font-size: 20px;
-    line-height: 30px;
-}
-
 .other-works .works-list {
     display: flex;
     flex-wrap: wrap;
@@ -181,11 +175,6 @@ h3 {
 .other-works .works-list li {
     /* gap 已經承擔 24px  */
     margin-bottom: 24px;
-}
-
-.other-works .works-list p {
-    line-height: 42px;
-    font-weight: 500;
 }
 
 /* Contact */
