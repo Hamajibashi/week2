@@ -24,6 +24,12 @@ a {
     color: inherit;
 }
 
+h1 {
+    font-size: 80px;
+    line-height: 106px;
+    font-weight: 900;
+}
+
 h2 {
     font-size: 64px;
     line-height: 84px;
@@ -33,7 +39,6 @@ h2 {
 h3 {
     font-size: 24px;
     line-height: 42px;
-    font-weight: 500;
 }
 
 p{
@@ -42,10 +47,6 @@ p{
 }
 
 /* 顏色 */
-.text-secondary {
-    color: #891818;
-}
-
 .text-light {
     color: #fff;
 }
@@ -96,12 +97,6 @@ p{
     padding: 308px 0;
 }
 
-.banner-content h1 {
-    font-size: 80px;
-    line-height: 106px;
-    font-weight: 900;
-}
-
 .banner-content span {
     font-size: 24px;
     line-height: 42px;
@@ -110,11 +105,16 @@ p{
 .banner-content h2 {
     font-size: 24px;
     line-height: 1.5;
+    font-weight: 700;
 }
 
-.banner-content ul {
+.banner-content .icons {
     display: flex;
     justify-content: space-between;
+}
+
+.banner-content .icons a:hover {
+    opacity: 0.8;
 }
 
 /* About */
