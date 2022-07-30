@@ -79,6 +79,9 @@ p{
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.txt-center{
     text-align: center;
 }
 
@@ -94,12 +97,17 @@ p{
 }
 
 .banner-content {
-    padding: 308px 0;
+    height: 958px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-content span {
     font-size: 24px;
     line-height: 42px;
+    align-self: flex-start;
 }
 
 .banner-content h2 {
